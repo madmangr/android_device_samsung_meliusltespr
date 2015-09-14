@@ -1,0 +1,27 @@
+# system.prop for meliusltespr
+
+rild.libpath=/system/lib/libsec-ril.so
+rild.libargs=-d /dev/smd0
+
+ro.cdma.default_numeric=310120
+ro.cdma.default_alpha=Sprint
+ro.gps.set_privacy=1
+
+ro.telephony.default_network=10
+# changed to 8 9:02pm 09.13.15 for build #2
+
+ro.telephony.get_imsi_from_sim=true
+telephony.lteOnCdmaDevice=1
+telephony.sms.pseudo_multipart=1
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+persist.eons.enabled=false
+
+persist.radio.no_wait_for_card=1
+persist.radio.use_se_table_only=1
+ro.telephony.ril.config=newDriverCallU,newDialCode
+
+ro.telephony.ril_class=MeliusSPRRIL
+# ro.telephony.default_cdma_sub=1
+persist.cust.tel.eons=1
+ro.config.hw_fast_dormancy=1
