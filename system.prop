@@ -22,6 +22,3 @@ persist.radio.use_se_table_only=1
 ro.telephony.ril.config=newDriverCallU,newDialCode
 
 ro.telephony.ril_class=MeliusSPRRIL
-# ro.telephony.default_cdma_sub=1
-# persist.cust.tel.eons=1
-# ro.config.hw_fast_dormancy=1
