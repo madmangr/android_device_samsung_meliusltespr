@@ -31,9 +31,5 @@ PRODUCT_MANUFACTURER := samsung
 
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_NUMBER=L600VPUBNJ1 \
-    TARGET_DEVICE=meliusltespr \
-    TARGET_BUILD_TYPE=user \
-    BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="meliusltespr-user 4.4.2 KOT49H L600VPUBNJ1 release-keys" \
+    PRIVATE_BUILD_DESC="meliusltespr-user 4.4.2 KOT49H  release-keys" \
     BUILD_FINGERPRINT="samsung/meliusltespr/meliusltespr:4.4.2/KOT49H/L600VPUBNJ1:user/release-keys"

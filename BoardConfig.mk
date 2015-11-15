@@ -16,14 +16,14 @@
 -include device/samsung/melius-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltespr,SPH-L600
+# TARGET_OTA_ASSERT_DEVICE := meliuslte,meliusltespr,SPH-L600
 
 # External apps on SD
-TARGET_EXTERNAL_APPS = sdcard1
+# TARGET_EXTERNAL_APPS = sdcard1
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_melius_spr_defconfig
-#TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 # NFC
 BOARD_HAVE_NFC := true
